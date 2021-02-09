@@ -1,0 +1,11 @@
+package ch06.ex02.case02;
+
+public class Friend {
+	public void play() {
+		Parent parent = new Parent();
+	//	parent.getId(); //private
+		parent.getName(); //protected
+		parent.getWealth(); //default
+	}
+
+}

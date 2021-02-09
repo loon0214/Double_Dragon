@@ -1,0 +1,16 @@
+package ch07.ex01.case06;
+
+public class TestMain {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Human human = new Student();
+		human.sleep();
+		
+		Student student = (Student)human;
+		student.study();
+		student.sleep();
+
+	}
+
+}

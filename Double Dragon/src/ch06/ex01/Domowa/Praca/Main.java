@@ -1,0 +1,10 @@
+package ch06.ex01.Domowa.Praca;
+
+public class Main {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Apple apple = new Apple();
+		Banana banana = new Banana();
+	}
+}
